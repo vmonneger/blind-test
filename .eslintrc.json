@@ -1,0 +1,34 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "project": ["./tsconfig.json"],
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "prettier",
+    "react-app",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    // "max-len": ["error", { "code": 120 }],
+    // "prefer-promise-reject-errors": ["off"],
+    // "react/jsx-filename-extension": ["off"],
+    // "react/prop-types": ["warn"],
+    // "no-return-assign": ["off"],
+    // "react/jsx-uses-react": "warn",
+    // "react/jsx-uses-vars": "warn",
+    // "no-unused-vars": ["off"]
+  }
+}
